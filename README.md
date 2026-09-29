@@ -1,6 +1,7 @@
 <!--
   Profile README for github.com/Arslanabbas102
-  Publish: create a public repo named Arslanabbas102, then upload README.md and flow.svg.
+  Publish: create a public repo named Arslanabbas102, then upload README.md, flow.svg
+  and ai-architecture.svg (all three in the main folder).
   To add LinkedIn, put this line above the Email button in "Let's connect":
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge)](https://linkedin.com/in/YOUR-HANDLE)
 -->
@@ -47,6 +48,14 @@ I work with **founders and product teams** to take an idea to a launched product
 - **Document AI:** pipelines that turn PDFs, contracts and invoices into structured, searchable data
 - **Workflow automation:** AI steps added to real business processes (support, sales, operations) with n8n and custom backends
 - **Production readiness:** evaluations, guardrails, prompt versioning, tracing, and keeping cost and latency under control
+
+---
+
+### 🏗️ How I build AI products
+
+<p align="center">
+  <img src="ai-architecture.svg" width="100%" alt="How I build AI products: users, Next.js frontend, API layer, LangGraph agent using LLMs, tools and RAG, with evals, monitoring and cloud underneath" />
+</p>
 
 ---
 
@@ -165,10 +174,6 @@ I work with **founders and product teams** to take an idea to a launched product
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Arslanabbas102&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
 
-<br/>
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Arslanabbas102&theme=github-compact&hide_border=true&area=true)
-
 </div>
 
 ---
@@ -190,6 +195,6 @@ Planning an MVP, adding an LLM, RAG or agent feature to your product, or just wa
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Arslanabbas102&label=Profile+Views&color=58a6ff&style=flat)
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Arslanabbas102.Arslanabbas102&left_text=Profile%20Views&left_color=%23161b22&right_color=%231f6feb)
 
 </div>
