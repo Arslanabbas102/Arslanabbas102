@@ -34,7 +34,6 @@ I work with **founders and product teams** to take an idea to a launched product
 - 🚀 Building **AI-powered products and MVPs** end to end
 - 🤖 Focused on **LLM apps, RAG pipelines and AI agents** that hold up in production
 - 🧠 Working with **OpenAI, Claude, Gemini and open-source models** (Llama, Mistral)
-- 🤝 Open to **MVP builds, AI product work and long-term collaborations**
 - 💬 Ask me about **RAG, AI agents, LLM integrations, React, Next.js, Node.js and Python**
 - 📬 **arslanabbasdev@gmail.com**
 
@@ -85,6 +84,7 @@ I work with **founders and product teams** to take an idea to a launched product
 
 ### Backend
 
+![Python](https://img.shields.io/badge/Python-%233776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-%23339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-%23E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-%23000000?style=flat-square&logo=express&logoColor=white)
@@ -112,7 +112,6 @@ I work with **founders and product teams** to take an idea to a launched product
 
 ### AI Agents & Frameworks
 
-![Python](https://img.shields.io/badge/Python-%233776AB?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-%231C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-%231C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-%23000000?style=flat-square)
@@ -165,16 +164,6 @@ I work with **founders and product teams** to take an idea to a launched product
 ![Postman](https://img.shields.io/badge/Postman-%23FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-%23000000?style=flat-square&logo=cursor&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%23D97757?style=flat-square&logo=anthropic&logoColor=white)
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Arslanabbas102&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
-
-</div>
 
 ---
 
