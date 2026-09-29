@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>How I build AI products: users, frontend, API layer, AI agent, LLMs, tools and RAG, with observability underneath</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#58a6ff"/>
+    </marker>
+    <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#8957e5" stop-opacity=".22"/>
+    </linearGradient>
+    <style>
+      .box { fill: #161b22; stroke: #30363d; stroke-width: 1.5; }
+      .hl { fill: url(#agent); stroke: #8957e5; stroke-width: 1.8; }
+      .head { fill: #f0f6fc; font-size: 16px; font-weight: 700; }
+      .tag { font-size: 11px; font-weight: 700; letter-spacing: 1.2px; }
+      .t { fill: #8b949e; font-size: 12.5px; }
+      .flow { stroke: #58a6ff; stroke-width: 2; fill: none; stroke-dasharray: 6 5; animation: dash 1.4s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -22; } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="470" rx="14" fill="#0d1117"/>
+
+  <!-- Main request path -->
+  <rect class="box" x="20" y="110" width="150" height="130" rx="12"/>
+  <text class="tag" x="36" y="136" fill="#3fb950">USERS</text>
+  <text class="head" x="36" y="160">Your users</text>
+  <text class="t" x="36" y="184">Web and mobile</text>
+  <text class="t" x="36" y="202">Slack, WhatsApp</text>
+  <text class="t" x="36" y="220">Internal teams</text>
+
+  <rect class="box" x="205" y="110" width="165" height="130" rx="12"/>
+  <text class="tag" x="221" y="136" fill="#58a6ff">FRONTEND</text>
+  <text class="head" x="221" y="160">Next.js · React</text>
+  <text class="t" x="221" y="184">Chat and copilot UI</text>
+  <text class="t" x="221" y="202">Streaming answers</text>
+  <text class="t" x="221" y="220">Sources shown inline</text>
+
+  <rect class="box" x="405" y="110" width="170" height="130" rx="12"/>
+  <text class="tag" x="421" y="136" fill="#d29922">API LAYER</text>
+  <text class="head" x="421" y="160">Node · FastAPI</text>
+  <text class="t" x="421" y="184">Auth and rate limits</text>
+  <text class="t" x="421" y="202">Queues for long tasks</text>
+  <text class="t" x="421" y="220">NestJS · Postgres · Redis</text>
+
+  <rect class="hl" x="610" y="95" width="175" height="160" rx="12"/>
+  <text class="tag" x="626" y="121" fill="#bc8cff">AI AGENT</text>
+  <text class="head" x="626" y="145">LangGraph</text>
+  <text class="t" x="626" y="169">Plan the steps</text>
+  <text class="t" x="626" y="187">Call tools, retrieve data</text>
+  <text class="t" x="626" y="205">Check and answer</text>
+  <text class="t" x="626" y="223">Guardrails built in</text>
+  <text class="t" x="626" y="241">Human review if needed</text>
+
+  <!-- What the agent uses -->
+  <rect class="box" x="820" y="20" width="160" height="110" rx="12"/>
+  <text class="tag" x="836" y="46" fill="#bc8cff">MODELS</text>
+  <text class="head" x="836" y="70">LLMs</text>
+  <text class="t" x="836" y="94">OpenAI · Claude</text>
+  <text class="t" x="836" y="112">Gemini · Llama</text>
+
+  <rect class="box" x="820" y="150" width="160" height="100" rx="12"/>
+  <text class="tag" x="836" y="176" fill="#f778ba">ACTIONS</text>
+  <text class="head" x="836" y="200">Tools &amp; MCP</text>
+  <text class="t" x="836" y="224">APIs, databases</text>
+  <text class="t" x="836" y="242">n8n workflows</text>
+
+  <rect class="box" x="820" y="270" width="160" height="105" rx="12"/>
+  <text class="tag" x="836" y="296" fill="#3fb950">KNOWLEDGE</text>
+  <text class="head" x="836" y="320">RAG</text>
+  <text class="t" x="836" y="344">pgvector · Pinecone</text>
+  <text class="t" x="836" y="362">Reranking, citations</text>
+
+  <!-- Data ingestion into the knowledge base -->
+  <rect class="box" x="405" y="282" width="380" height="88" rx="12"/>
+  <text class="tag" x="421" y="307" fill="#3fb950">DATA INGESTION</text>
+  <text class="head" x="421" y="331">Your docs, PDFs and databases</text>
+  <text class="t" x="421" y="354">Parsing → chunking → embeddings → vector DB</text>
+
+  <!-- Arrows -->
+  <path class="flow" d="M172 175 H201" marker-end="url(#arrow)"/>
+  <path class="flow" d="M372 175 H401" marker-end="url(#arrow)"/>
+  <path class="flow" d="M577 175 H606" marker-end="url(#arrow)"/>
+  <path class="flow" d="M787 135 C800 135 802 75 816 75" marker-end="url(#arrow)"/>
+  <path class="flow" d="M787 175 C800 175 802 200 816 200" marker-end="url(#arrow)"/>
+  <path class="flow" d="M787 215 C800 215 802 318 816 318" marker-end="url(#arrow)"/>
+  <path class="flow" d="M787 335 H816" marker-end="url(#arrow)"/>
+
+  <!-- Foundation -->
+  <rect class="box" x="20" y="395" width="960" height="55" rx="12"/>
+  <text class="tag" x="40" y="428" fill="#58a6ff">RUNS ON</text>
+  <text class="t" x="120" y="428">Evals and tracing  ·  Cost and latency tuning  ·  Prompt versioning  ·  AWS  ·  Docker  ·  CI/CD  ·  Monitoring and alerts</text>
+</svg>
